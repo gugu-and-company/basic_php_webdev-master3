@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.card {
+  /* ポイント４ */
+  width: calc((100% - 20px * 1) / 2);
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+  padding: 20px;
+  margin: 40px;
+}
+
+.dttm {
+  /* ポイント４ */
+  width: calc(100% - 20px * 1);
+  height: auto;
+  border-radius: 8px;
+  font-size: small;
+}
+
+.post {
+  /* ポイント４ */
+  width: calc(100% - 20px * 1);
+  height: auto;
+  border-radius: 8px;
+  font-size: x-large;
+}
+
+.text-danger {
+  color: #dc3545 !important
+}
+
+.text-success {
+  color: #28a745 !important
+}
